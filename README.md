@@ -1,4 +1,4 @@
-# Time-Comrade 🎮
+# Skill-Issue 🎮
 
 > **Language / Idioma:** [Español](#español) | [English](#english)
 
@@ -47,6 +47,7 @@
 * **Organización:** Organiza la escena para evitar que la jerarquía crezca demasiado usando GameObjects vacíos.
 * **Instanciación:** Al crear objetos en tiempo de ejecución, aparecen en la raíz del grafo de escena. Si se crean muchos objetos, la escena se vuelve inmanejable.
 * **Padres:** Para manejarlo correctamente, al instanciar un objeto, se le puede indicar un padre (asegúrate que su Transform sea la identidad). Así se puede desplegar o replegar el padre para ver los objetos.
+<img width="182" height="294" alt="image" src="https://github.com/user-attachments/assets/329710c9-f11f-4550-bc67-31ffb7f4f3a3" />
 
 ## 📁 Carpetas
 * **Ficheros .meta:** Cada fichero y carpeta tiene un fichero de texto con el mismo nombre y extensión `.meta`. Son necesarios; mantenlos junto a su fichero.
