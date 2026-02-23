@@ -49,7 +49,6 @@
 
 * **Instanciación:** Al crear objetos en tiempo de ejecución, aparecen en la raíz del grafo de escena. Si se crean muchos objetos, la escena se vuelve inmanejable.
 * **Padres:** Para manejarlo correctamente, al instanciar un objeto, se le puede indicar un padre (asegúrate que su Transform sea la identidad). Así se puede desplegar o replegar el padre para ver los objetos.
-* 
 <img width="1058" height="294" alt="image" src="https://github.com/user-attachments/assets/332a2897-29fb-413d-90a2-12900c3691d0" />
 
 ## 📁 Carpetas
