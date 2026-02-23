@@ -11,7 +11,12 @@
 * **Carpetas vacías:** Para subir carpetas vacías a un sistema de gestión de versiones basado en Git, se puede crear un fichero vacío `.gitKeep` en dicha carpeta.
 * **Archivos .meta:** También hay que asegurarse de que se suben los ficheros `.meta` al repositorio, ya que contienen información importante sobre ficheros y directorios del juego, como por ejemplo, la configuración de importación de las texturas.
 
-### 1. Commits
+### 1. Convenciones y Estructura
+* **Documentación:** Es fundamental seguir las convenciones de nombres y estructuras de directorio documentadas aquí para que todo el equipo trabaje en sintonía.
+* **Nomenclatura:** **No usar espacios** en los nombres de ficheros y carpetas. Usar siempre **CamelCase** (ejemplo: `MiNuevoScript.cs` o `PersonajePrincipal`).
+* **Ubicación:** No guardar ficheros fuera de la carpeta de `Assets`.
+
+### 2. Commits
 * **Mensaje:** En el mensaje de commit, explicar brevemente el objetivo de los cambios realizados. Usamos el formato "tipo: verbo imperativo + descripción".
 * **Tipos comunes:**
     * `feat`: Añade una nueva característica.
@@ -20,7 +25,7 @@
     * `refactor`: Refactorización del código (no cambia el comportamiento).
 * **Formato:** Se deberá agregar la descripción de commit, empezando siempre por un verbo en imperativo, por ejemplo: *añade, crea, remueve, cambia, soluciona* y la descripción que generemos.
 
-### 2. Ramas (Branches)
+### 3. Ramas (Branches)
 * **Concepto:** Una rama se crea como una copia perfecta de otra, pero a partir de ese momento cada una puede seguir caminos distintos.
 * **Main:** Inicialmente sólo existe la rama `main` (o master).
 * **Flujo:** Se recomienda añadir una nueva funcionalidad creando una rama, trabajando en dicha rama y, una vez que está lista, fundir la rama con `main`.
@@ -66,7 +71,12 @@
 * **Empty Folders:** To upload empty folders to a Git-based version control system, you can create an empty `.gitKeep` file in that folder.
 * **.meta Files:** Ensure `.meta` files are uploaded to the repository, as they contain important information about game files and directories, such as texture import settings.
 
-### 1. Commits
+### 1. Conventions & Structure
+* **Documentation:** Everyone must follow the established naming conventions and directory structures.
+* **Naming:** **Do not use spaces** in file or folder names. Always use **CamelCase** (e.g., `MyNewScript.cs` or `MainCharacter`).
+* **Location:** Never store files outside the `Assets` folder.
+
+### 2. Commits
 * **Message:** In the commit message, briefly explain the goal of the changes. We use the format "type: imperative verb + description".
 * **Common Types:**
     * `feat`: Adds a new feature.
@@ -75,7 +85,7 @@
     * `refactor`: Code refactoring (does not change behavior).
 * **Format:** The commit description should always start with an imperative verb (e.g., *add, create, remove, change, fix*).
 
-### 2. Branches
+### 3. Branches
 * **Concept:** A branch is created as a perfect copy of another, but from that point on, each can follow different paths.
 * **Main:** Initially, only the `main` (or master) branch exists.
 * **Workflow:** It is recommended to add new functionality by creating a branch, working on it, and merging it with `main` once it's ready.
