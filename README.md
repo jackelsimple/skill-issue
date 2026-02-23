@@ -45,9 +45,10 @@
 ## 📦 Objetos
 * **Prefabs:** Recuerda usar prefabs siempre que sea posible.
 * **Organización:** Organiza la escena para evitar que la jerarquía crezca demasiado usando GameObjects vacíos.
+<img width="181" height="203" alt="image" src="https://github.com/user-attachments/assets/ae97d2f9-ca74-4cd5-8595-c7e773301e51" />
 * **Instanciación:** Al crear objetos en tiempo de ejecución, aparecen en la raíz del grafo de escena. Si se crean muchos objetos, la escena se vuelve inmanejable.
 * **Padres:** Para manejarlo correctamente, al instanciar un objeto, se le puede indicar un padre (asegúrate que su Transform sea la identidad). Así se puede desplegar o replegar el padre para ver los objetos.
-<img width="182" height="294" alt="image" src="https://github.com/user-attachments/assets/329710c9-f11f-4550-bc67-31ffb7f4f3a3" />
+<img width="1058" height="294" alt="image" src="https://github.com/user-attachments/assets/332a2897-29fb-413d-90a2-12900c3691d0" />
 
 ## 📁 Carpetas
 * **Ficheros .meta:** Cada fichero y carpeta tiene un fichero de texto con el mismo nombre y extensión `.meta`. Son necesarios; mantenlos junto a su fichero.
@@ -106,8 +107,10 @@
 ## 📦 Objects
 * **Prefabs:** Remember to use prefabs whenever possible.
 * **Organization:** Use empty GameObjects to organize the scene and prevent the hierarchy from becoming too large.
+<img width="181" height="203" alt="image" src="https://github.com/user-attachments/assets/ae97d2f9-ca74-4cd5-8595-c7e773301e51" />
 * **Instantiation:** Objects created at runtime appear at the scene root. If many are created, the scene becomes unmanageable.
 * **Parenting:** To handle this correctly, assign a parent when instantiating (ensure its Transform is set to identity). This allows collapsing the parent to manage the view.
+<img width="1058" height="294" alt="image" src="https://github.com/user-attachments/assets/332a2897-29fb-413d-90a2-12900c3691d0" />
 
 ## 📁 Folders
 * **.meta Files:** Every file and folder has a `.meta` text file. They are necessary; keep them with their corresponding file.
